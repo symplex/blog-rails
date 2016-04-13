@@ -1,0 +1,22 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: db/development.mysql
+  pool: 5
+  username: root
+  password: pass
+test:
+  adapter: mysql
+  encoding: utf8
+  database: db/test.mysql
+  pool: 5
+  username: root
+  password: pass
+production:
+  adapter: mysql
+  encoding: utf8
+  database: db/production.mysql
+  pool: 5
+  username: root
+  password: pass
+
